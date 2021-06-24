@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/static/css/main.ab3edd75.chunk.css",
-    "main.js": "/static/js/main.e4b5c113.chunk.js",
-    "main.js.map": "/static/js/main.e4b5c113.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.92ee656d.js",
-    "runtime-main.js.map": "/static/js/runtime-main.92ee656d.js.map",
-    "static/css/2.61f1384f.chunk.css": "/static/css/2.61f1384f.chunk.css",
-    "static/js/2.ae0bea36.chunk.js": "/static/js/2.ae0bea36.chunk.js",
-    "static/js/2.ae0bea36.chunk.js.map": "/static/js/2.ae0bea36.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.a141c757c03b01f01f13f4bcbc8be9b5.js": "/precache-manifest.a141c757c03b01f01f13f4bcbc8be9b5.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/2.61f1384f.chunk.css.map": "/static/css/2.61f1384f.chunk.css.map",
-    "static/css/main.ab3edd75.chunk.css.map": "/static/css/main.ab3edd75.chunk.css.map",
-    "static/js/2.ae0bea36.chunk.js.LICENSE.txt": "/static/js/2.ae0bea36.chunk.js.LICENSE.txt",
-    "static/media/main.css": "/static/media/NunitoSans-SemiBold.bd318b58.ttf"
+    "main.css": "./static/css/main.36ac3af7.chunk.css",
+    "main.js": "./static/js/main.2779b63b.chunk.js",
+    "main.js.map": "./static/js/main.2779b63b.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.f37b563b.js",
+    "runtime-main.js.map": "./static/js/runtime-main.f37b563b.js.map",
+    "static/css/2.61f1384f.chunk.css": "./static/css/2.61f1384f.chunk.css",
+    "static/js/2.88170640.chunk.js": "./static/js/2.88170640.chunk.js",
+    "static/js/2.88170640.chunk.js.map": "./static/js/2.88170640.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.ba3ac0022b44508167b96da1dde1ac5f.js": "./precache-manifest.ba3ac0022b44508167b96da1dde1ac5f.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/2.61f1384f.chunk.css.map": "./static/css/2.61f1384f.chunk.css.map",
+    "static/css/main.36ac3af7.chunk.css.map": "./static/css/main.36ac3af7.chunk.css.map",
+    "static/js/2.88170640.chunk.js.LICENSE.txt": "./static/js/2.88170640.chunk.js.LICENSE.txt",
+    "static/media/main.css": "./static/media/NunitoSans-SemiBold.bd318b58.ttf"
   },
   "entrypoints": [
-    "static/js/runtime-main.92ee656d.js",
+    "static/js/runtime-main.f37b563b.js",
     "static/css/2.61f1384f.chunk.css",
-    "static/js/2.ae0bea36.chunk.js",
-    "static/css/main.ab3edd75.chunk.css",
-    "static/js/main.e4b5c113.chunk.js"
+    "static/js/2.88170640.chunk.js",
+    "static/css/main.36ac3af7.chunk.css",
+    "static/js/main.2779b63b.chunk.js"
   ]
 }
