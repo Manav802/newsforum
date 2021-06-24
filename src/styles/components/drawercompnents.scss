@@ -1,0 +1,42 @@
+@import 'variables.scss';
+
+.page {
+  margin: 2%;
+  margin-top: 0;
+  .col {
+    .business {
+      margin-top: 80px;
+      .sqrcards {
+        margin-right: 10%;
+        background-color: #2e2c2c !important;
+        max-height: 380px;
+
+        box-shadow: -7px -7px 13px rgba(126, 124, 124, 0.2),
+          10px 10px 13px rgba(0, 0, 0, 0.959);
+        border-radius: 3px;
+
+        .cardtext {
+          font-family: 'Roboto', sans-serif;
+          overflow: hidden;
+          line-height: 1.2;
+          font-size: 12px;
+          max-height: 35px;
+          word-spacing: normal;
+        }
+
+        .card-header {
+          margin: 2%;
+          border-bottom-color: #6c757d;
+          color: #fff;
+          .card-title {
+            color: $light-color;
+            max-height: 20px; //line height is 1.2 space for 2 lines is 2*(15px*1.2) .
+            font-size: 18px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,33 @@
+.header {
+  .user-header {
+    min-height: 4vh;
+    background-color: $primary-color;
+    .user-pic {
+      background-color: white;
+      border-radius: 50%;
+      width: 30px;
+      height: 30px;
+      margin-right: 0.5rem;
+      padding: 0.5rem;
+    }
+  }
+  .navigation {
+    background-color: $secondary-color;
+    min-height: 6vh;
+    .search_bar {
+      color: white;
+      input {
+        background-color: $secondary-color;
+        border: none;
+        appearance: none;
+        border: inset 2px $light-color;
+        &:focus {
+          color: $light-color;
+        }
+      }
+    }
+    .menu {
+      min-width: 16vw;
+    }
+  }
+}

@@ -1,0 +1,40 @@
+@import 'variables.scss';
+
+.horizontalcards {
+  margin: 5%;
+  box-shadow: -7px -7px 13px rgba(126, 124, 124, 0.2),
+    10px 10px 13px rgba(0, 0, 0, 0.959);
+  //  box-shadow:
+  //               10px 10px 15px #000 ;
+  // box-shadow: -7px -7px 13px #000,
+  //               10px 10px 13px #000 ;
+
+  background-color: $primarydark-color !important;
+  max-height: 160px;
+  .card-body {
+    padding: 10px 5px 0 5px;
+  }
+  .col-md-4 {
+    max-height: 158px;
+  }
+  .card-body {
+    .card-title {
+      color: $light-color;
+      max-height: 36px; //line height is 1.2 space for 2 lines is 2*(15px*1.2) .
+      font-size: 16px;
+      overflow: hidden;
+      margin-bottom: 1rem;
+    }
+    .card-text {
+      font-family: 'Roboto', sans-serif;
+      overflow: hidden;
+      line-height: 1.2;
+      font-size: 14px;
+      max-height: 52px;
+      word-spacing: normal;
+    }
+    .article-link {
+      text-decoration: none;
+    }
+  }
+}

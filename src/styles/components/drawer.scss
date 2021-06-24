@@ -1,0 +1,51 @@
+.sidenav {
+  height: 100vh;
+  position: fixed;
+  z-index: 2002;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  transition: 0.5s;
+  a,
+  h2 {
+    padding: 9%;
+    text-decoration: none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    &:hover {
+      color: #f1f1f1;
+      cursor: pointer;
+    }
+  }
+  .closebtn {
+    position: absolute;
+    top: 0;
+    right: 20px;
+  }
+}
+.overlay {
+  min-height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2001;
+  background-color: rgba(250, 250, 250, 0.171);
+}
+.floating-menu {
+  position: absolute;
+  z-index: 2000;
+  top: 11vh;
+  right: 2vh;
+  cursor: pointer;
+  color: #f1f1f1;
+  border-radius: 12%;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+    a {
+      font-size: 18px;
+    }
+  }
+}
